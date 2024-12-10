@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Employee | Details</title>
+    <link rel="stylesheet" href="../css/addemp.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="logo">
+            <h1>
+                <a href="../index.html"><img src="../images/logo-zebra-chat.png" style="height: 100%;"></a>
+            </h1>
+        </div>
+        <div class="nav-actions">
+            <a href="#" class="btn-signup">LOGIN</a>
+            <a href="#" class="btn-signup">SIGN-IN</a>
+            <a href="../index.html" class="btn-signup">HOME</a>
+        </div>
+    </nav>
+
+    <div class="main-container">
+
+        <div class="form-container">
+            <form id="my-form" class="form">
+              <h2>Registration Form</h2>
+          
+              <div class="input">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name"/>
+              </div>
+          
+              <div class="input">
+                <label for="empid">Employee ID:</label>
+                <input type="text" id="empid" name="employeeid" required placeholder="Enter your Employee ID"/>
+              </div>
+          
+              <div class="input">
+                <label for="designation">Designation:</label>
+                <input type="text" id="designation" name="designation" required placeholder="Enter your Designation"/>
+              </div>
+          
+              <div class="input">  
+                <label for="department">Department:</label>
+                <input type="text" id="department" name="department" required placeholder="Enter your Department"/>
+              </div>
+          
+              <div class="input">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your Email"/>
+              </div>
+          
+              <div class="input">
+                <label for="phone">Phone No:</label>
+                <input type="tel" id="phone" name="phone" pattern="\d{10}" required placeholder="Enter your 10-digit phone number" title="Please enter a valid 10-digit phone number"/>
+              </div>
+          
+              <div class="form-actions">
+                <button type="reset">Reset</button>
+                <button type="submit" id="btn">Submit</button>
+              </div>
+            </form>
+          </div>
+          
+
+    </div>
+</body>
+</html>
